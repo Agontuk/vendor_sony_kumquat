@@ -40,7 +40,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/bin/sms_server:system/bin/sms_server \
     $(VENDOR_DIR)/bin/startupflag:system/bin/startupflag \
     $(VENDOR_DIR)/bin/ste-adm-test:system/bin/ste-adm-test \
-    $(VENDOR_DIR)/bin/ste_mad:system/bin/ste_mad \
     $(VENDOR_DIR)/bin/ste_omxil_test:system/bin/ste_omxil_test \
     $(VENDOR_DIR)/bin/stercd:system/bin/stercd \
     $(VENDOR_DIR)/bin/suntrold:system/bin/suntrold \
