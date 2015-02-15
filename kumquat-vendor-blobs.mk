@@ -19,8 +19,6 @@ VENDOR_DIR := vendor/sony/kumquat/proprietary
 PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/bin/admsrv:system/bin/admsrv \
     $(VENDOR_DIR)/bin/at_core:system/bin/at_core \
-    $(VENDOR_DIR)/bin/blue-up.sh:system/bin/blue-up.sh \
-    $(VENDOR_DIR)/bin/cg2900-channel_init.sh:system/bin/cg2900-channel_init.sh \
     $(VENDOR_DIR)/bin/chargemon:system/bin/chargemon \
     $(VENDOR_DIR)/bin/cn_server:system/bin/cn_server \
     $(VENDOR_DIR)/bin/cops_cmd:system/bin/cops_cmd \
@@ -603,5 +601,4 @@ PRODUCT_COPY_FILES += \
 
 
 PRODUCT_COPY_FILES += \
-    $(VENDOR_DIR)/xbin/ste-cg29xx_ctrl:system/xbin/ste-cg29xx_ctrl \
     $(VENDOR_DIR)/xbin/watchdog-kicker:system/xbin/watchdog-kicker
