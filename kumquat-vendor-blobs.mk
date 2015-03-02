@@ -45,7 +45,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/bin/taimport:system/bin/taimport \
     $(VENDOR_DIR)/bin/ta_reader:system/bin/ta_reader \
     $(VENDOR_DIR)/bin/updatemiscta:system/bin/updatemiscta \
-    $(VENDOR_DIR)/bin/usbid_init.sh:system/bin/usbid_init.sh \
     $(VENDOR_DIR)/bin/wait4tad:system/bin/wait4tad
 
 
