@@ -15,7 +15,6 @@
 
 VENDOR_DIR := vendor/sony/kumquat/proprietary
 
-
 PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/bin/admsrv:system/bin/admsrv \
     $(VENDOR_DIR)/bin/at_core:system/bin/at_core \
@@ -46,8 +45,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/bin/ta_reader:system/bin/ta_reader \
     $(VENDOR_DIR)/bin/updatemiscta:system/bin/updatemiscta \
     $(VENDOR_DIR)/bin/wait4tad:system/bin/wait4tad
-
-
 
 PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/etc/AT/manuf_id.cfg:system/etc/AT/manuf_id.cfg \
@@ -102,8 +99,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/etc/LbsPltConfig.cfg:system/etc/LbsPltConfig.cfg \
     $(VENDOR_DIR)/etc/plmn.latam.list:system/etc/plmn.latam.list \
     $(VENDOR_DIR)/etc/plmn.operator.list:system/etc/plmn.operator.list
-
-
 
 PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
@@ -247,8 +242,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/lib/libu300-parser.so:system/lib/libu300-parser.so \
     $(VENDOR_DIR)/lib/libu300-ril.so:system/lib/libu300-ril.so \
     $(VENDOR_DIR)/lib/libUMP.so:system/lib/libUMP.so
-
-
 
 PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/usr/lib/alsa-lib/libasound_module_ctl_bluetooth.so:system/usr/lib/alsa-lib/libasound_module_ctl_bluetooth.so \
@@ -586,8 +579,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/usr/share/nmf/repository/mmdsp_8500_v2/synchronous_lsem.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/synchronous_lsem.elf4nmf \
     $(VENDOR_DIR)/usr/share/nmf/repository/mmdsp_8500_v2/vpp.elf4nmf:system/usr/share/nmf/repository/mmdsp_8500_v2/vpp.elf4nmf
 
-
-
 PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/vendor/camera/APT00YP1.dat:system/vendor/camera/APT00YP1.dat \
     $(VENDOR_DIR)/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
@@ -597,7 +588,19 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/vendor/camera/STW05BN0.dat:system/vendor/camera/STW05BN0.dat \
     $(VENDOR_DIR)/vendor/camera/STW05BN0_BH6476.dat:system/vendor/camera/STW05BN0_BH6476.dat
 
-
-
 PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/xbin/watchdog-kicker:system/xbin/watchdog-kicker
+
+# Illumination Bar support
+ifeq ($(TARGET_USES_ILLUMINAION_BAR),true)
+PRODUCT_COPY_FILES += \
+    $(VENDOR_DIR)/bin/illumination_service:/system/bin/illumination_service \
+    $(VENDOR_DIR)/etc/permissions/com.sonyericsson.illumination.xml:/system/etc/permissions/com.sonyericsson.illumination.xml \
+    $(VENDOR_DIR)/lib/hw/lights.st-ericsson.so:/system/lib/hw/lights.montblanc.so \
+    $(VENDOR_DIR)/lib/libLightsJni.so:/system/lib/libLightsJni.so \
+    $(VENDOR_DIR)/lib/liblights-core.so:/system/lib/liblights-core.so
+
+PRODUCT_PACKAGES += \
+    SemcIllumination \
+    com.sonyericsson.illumination
+endif
