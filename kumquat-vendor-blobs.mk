@@ -591,16 +591,3 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/xbin/watchdog-kicker:system/xbin/watchdog-kicker
 
-# Illumination Bar support
-ifeq ($(TARGET_USES_ILLUMINAION_BAR),true)
-PRODUCT_COPY_FILES += \
-    $(VENDOR_DIR)/bin/illumination_service:/system/bin/illumination_service \
-    $(VENDOR_DIR)/etc/permissions/com.sonyericsson.illumination.xml:/system/etc/permissions/com.sonyericsson.illumination.xml \
-    $(VENDOR_DIR)/lib/hw/lights.st-ericsson.so:/system/lib/hw/lights.montblanc.so \
-    $(VENDOR_DIR)/lib/libLightsJni.so:/system/lib/libLightsJni.so \
-    $(VENDOR_DIR)/lib/liblights-core.so:/system/lib/liblights-core.so
-
-PRODUCT_PACKAGES += \
-    SemcIllumination \
-    com.sonyericsson.illumination
-endif

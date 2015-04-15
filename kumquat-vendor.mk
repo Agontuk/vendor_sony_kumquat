@@ -12,5 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Illumination Bar support
+PRODUCT_PACKAGES += \
+    SemcIllumination \
+    com.sonyericsson.illumination \
+    illumination_service \
+    libLightsJni \
+    liblights-core \
+    lights.montblanc
 
 $(call inherit-product, vendor/sony/kumquat/kumquat-vendor-blobs.mk)
