@@ -182,7 +182,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/lib/libcn.so:system/lib/libcn.so \
     $(VENDOR_DIR)/lib/libcops.so:system/lib/libcops.so \
     $(VENDOR_DIR)/lib/libface.so:system/lib/libface.so \
-    $(VENDOR_DIR)/lib/libfmradio.cg2900.so:system/lib/libfmradio.cg2900.so \
     $(VENDOR_DIR)/lib/libidd.so:system/lib/libidd.so \
     $(VENDOR_DIR)/lib/libiddjni.so:system/lib/libiddjni.so \
     $(VENDOR_DIR)/lib/libisimessage.so:system/lib/libisimessage.so \
