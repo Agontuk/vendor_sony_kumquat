@@ -108,7 +108,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/lib/hw/audio_policy.montblanc.so:system/lib/hw/audio_policy.montblanc.so \
     $(VENDOR_DIR)/lib/hw/camera.montblanc.so:system/lib/hw/camera.montblanc.so \
     $(VENDOR_DIR)/lib/hw/gps.montblanc.so:system/lib/hw/gps.montblanc.so \
-    $(VENDOR_DIR)/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     $(VENDOR_DIR)/lib/ste_omxcomponents/libste_alsasink.so:system/lib/ste_omxcomponents/libste_alsasink.so \
     $(VENDOR_DIR)/lib/ste_omxcomponents/libste_alsasource.so:system/lib/ste_omxcomponents/libste_alsasource.so \
     $(VENDOR_DIR)/lib/ste_omxcomponents/libste_audio_mixer.so:system/lib/ste_omxcomponents/libste_audio_mixer.so \
