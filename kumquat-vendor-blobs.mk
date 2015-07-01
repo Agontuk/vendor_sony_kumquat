@@ -116,18 +116,14 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/lib/ste_omxcomponents/libste_camera.so:system/lib/ste_omxcomponents/libste_camera.so \
     $(VENDOR_DIR)/lib/ste_omxcomponents/libste_comfort_noise.so:system/lib/ste_omxcomponents/libste_comfort_noise.so \
     $(VENDOR_DIR)/lib/ste_omxcomponents/libste_cscall.so:system/lib/ste_omxcomponents/libste_cscall.so \
-    $(VENDOR_DIR)/lib/ste_omxcomponents/libste_dec_aacarm.so:system/lib/ste_omxcomponents/libste_dec_aacarm.so \
     $(VENDOR_DIR)/lib/ste_omxcomponents/libste_dec_amr.so:system/lib/ste_omxcomponents/libste_dec_amr.so \
     $(VENDOR_DIR)/lib/ste_omxcomponents/libste_dec_amrwb.so:system/lib/ste_omxcomponents/libste_dec_amrwb.so \
     $(VENDOR_DIR)/lib/ste_omxcomponents/libste_dec_h264.so:system/lib/ste_omxcomponents/libste_dec_h264.so \
     $(VENDOR_DIR)/lib/ste_omxcomponents/libste_dec_jpeg.so:system/lib/ste_omxcomponents/libste_dec_jpeg.so \
-    $(VENDOR_DIR)/lib/ste_omxcomponents/libste_dec_mp3.so:system/lib/ste_omxcomponents/libste_dec_mp3.so \
     $(VENDOR_DIR)/lib/ste_omxcomponents/libste_dec_mpeg2.so:system/lib/ste_omxcomponents/libste_dec_mpeg2.so \
     $(VENDOR_DIR)/lib/ste_omxcomponents/libste_dec_mpeg4.so:system/lib/ste_omxcomponents/libste_dec_mpeg4.so \
     $(VENDOR_DIR)/lib/ste_omxcomponents/libste_dec_vc1.so:system/lib/ste_omxcomponents/libste_dec_vc1.so \
-    $(VENDOR_DIR)/lib/ste_omxcomponents/libste_dec_wmapro_v10.so:system/lib/ste_omxcomponents/libste_dec_wmapro_v10.so \
     $(VENDOR_DIR)/lib/ste_omxcomponents/libste_drc.so:system/lib/ste_omxcomponents/libste_drc.so \
-    $(VENDOR_DIR)/lib/ste_omxcomponents/libste_enc_aac.so:system/lib/ste_omxcomponents/libste_enc_aac.so \
     $(VENDOR_DIR)/lib/ste_omxcomponents/libste_enc_amr.so:system/lib/ste_omxcomponents/libste_enc_amr.so \
     $(VENDOR_DIR)/lib/ste_omxcomponents/libste_enc_amrwb.so:system/lib/ste_omxcomponents/libste_enc_amrwb.so \
     $(VENDOR_DIR)/lib/ste_omxcomponents/libste_enc_h264.so:system/lib/ste_omxcomponents/libste_enc_h264.so \
