@@ -222,6 +222,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/lib/libste_ext_ens_image_common.so:system/lib/libste_ext_ens_image_common.so \
     $(VENDOR_DIR)/lib/libste_omxil-interface.so:system/lib/libste_omxil-interface.so \
     $(VENDOR_DIR)/lib/libsterc.so:system/lib/libsterc.so \
+    $(VENDOR_DIR)/lib/libstlport.so:system/lib/libstlport.so \
     $(VENDOR_DIR)/lib/libsys-utils.so:system/lib/libsys-utils.so \
     $(VENDOR_DIR)/lib/libta.so:system/lib/libta.so \
     $(VENDOR_DIR)/lib/libtee.so:system/lib/libtee.so \
