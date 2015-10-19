@@ -50,13 +50,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/etc/AT/manuf_id.cfg:system/etc/AT/manuf_id.cfg \
     $(VENDOR_DIR)/etc/AT/model_id.cfg:system/etc/AT/model_id.cfg \
     $(VENDOR_DIR)/etc/AT/system_id.cfg:system/etc/AT/system_id.cfg \
-    $(VENDOR_DIR)/etc/bluetooth/audio.conf:system/etc/bluetooth/audio.conf \
-    $(VENDOR_DIR)/etc/bluetooth/auto_pairing.conf:system/etc/bluetooth/auto_pairing.conf \
-    $(VENDOR_DIR)/etc/bluetooth/blacklist.conf:system/etc/bluetooth/blacklist.conf \
-    $(VENDOR_DIR)/etc/bluetooth/input.conf:system/etc/bluetooth/input.conf \
-    $(VENDOR_DIR)/etc/bluetooth/main.conf:system/etc/bluetooth/main.conf \
-    $(VENDOR_DIR)/etc/bluetooth/network.conf:system/etc/bluetooth/network.conf \
-    $(VENDOR_DIR)/etc/bluetooth/qos_role_switch_blacklist.conf:system/etc/bluetooth/qos_role_switch_blacklist.conf \
     $(VENDOR_DIR)/etc/firmware/cg2900_fm_bt_src_coeff_info.fw:system/etc/firmware/cg2900_fm_bt_src_coeff_info.fw \
     $(VENDOR_DIR)/etc/firmware/cg2900_fm_ext_src_coeff_info.fw:system/etc/firmware/cg2900_fm_ext_src_coeff_info.fw \
     $(VENDOR_DIR)/etc/firmware/cg2900_fm_fm_coeff_info.fw:system/etc/firmware/cg2900_fm_fm_coeff_info.fw \
@@ -238,9 +231,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/lib/libUMP.so:system/lib/libUMP.so
 
 PRODUCT_COPY_FILES += \
-    $(VENDOR_DIR)/usr/lib/alsa-lib/libasound_module_ctl_bluetooth.so:system/usr/lib/alsa-lib/libasound_module_ctl_bluetooth.so \
-    $(VENDOR_DIR)/usr/lib/alsa-lib/libasound_module_pcm_bluetooth.so:system/usr/lib/alsa-lib/libasound_module_pcm_bluetooth.so \
-    $(VENDOR_DIR)/usr/lib/alsa-lib/libasound_module_pcm_steiop.so:system/usr/lib/alsa-lib/libasound_module_pcm_steiop.so \
     $(VENDOR_DIR)/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
     $(VENDOR_DIR)/usr/share/alsa/pcm/center_lfe.conf:system/usr/share/alsa/pcm/center_lfe.conf \
     $(VENDOR_DIR)/usr/share/alsa/pcm/default.conf:system/usr/share/alsa/pcm/default.conf \
