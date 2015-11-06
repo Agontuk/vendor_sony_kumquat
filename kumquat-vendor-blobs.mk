@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/bin/msa:system/bin/msa \
     $(VENDOR_DIR)/bin/psccd:system/bin/psccd \
     $(VENDOR_DIR)/bin/rfhal_export:system/bin/rfhal_export \
+    $(VENDOR_DIR)/bin/rild:system/bin/rild \
     $(VENDOR_DIR)/bin/simd:system/bin/simd \
     $(VENDOR_DIR)/bin/simpbd:system/bin/simpbd \
     $(VENDOR_DIR)/bin/sms_server:system/bin/sms_server \
@@ -202,6 +203,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/lib/libphonet.so:system/lib/libphonet.so \
     $(VENDOR_DIR)/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
     $(VENDOR_DIR)/lib/libpscc.so:system/lib/libpscc.so \
+    $(VENDOR_DIR)/lib/libril.so:system/lib/libril.so \
     $(VENDOR_DIR)/lib/libS1SL.so:system/lib/libS1SL.so \
     $(VENDOR_DIR)/lib/libshmnetlnk.so:system/lib/libshmnetlnk.so \
     $(VENDOR_DIR)/lib/libsms_server.so:system/lib/libsms_server.so \
@@ -225,6 +227,8 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/lib/libta.so:system/lib/libta.so \
     $(VENDOR_DIR)/lib/libtee.so:system/lib/libtee.so \
     $(VENDOR_DIR)/lib/libtrace.so:system/lib/libtrace.so \
+    $(VENDOR_DIR)/lib/libu300-parser.so:system/lib/libu300-parser.so \
+    $(VENDOR_DIR)/lib/libu300-ril.so:system/lib/libu300-ril.so \
     $(VENDOR_DIR)/lib/libUMP.so:system/lib/libUMP.so
 
 PRODUCT_COPY_FILES += \
