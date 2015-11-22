@@ -91,7 +91,9 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/etc/LbsPgpsConfig.cfg:system/etc/LbsPgpsConfig.cfg \
     $(VENDOR_DIR)/etc/LbsPltConfig.cfg:system/etc/LbsPltConfig.cfg \
     $(VENDOR_DIR)/etc/plmn.latam.list:system/etc/plmn.latam.list \
-    $(VENDOR_DIR)/etc/plmn.operator.list:system/etc/plmn.operator.list
+    $(VENDOR_DIR)/etc/plmn.operator.list:system/etc/plmn.operator.list \
+    $(VENDOR_DIR)/etc/plmn.operator.nitz.list:system/etc/plmn.operator.nitz.list \
+    $(VENDOR_DIR)/etc/telephony_log_levels:system/etc/telephony_log_levels
 
 PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
